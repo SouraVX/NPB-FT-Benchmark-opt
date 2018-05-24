@@ -811,7 +811,7 @@ c---------------------------------------------------------------------
 c---------------------------------------------------------------------
 
 !      implicit none
-!      integer dir
+!      integer dir  ! causing error, benchmark will not verify
       include 'global.h'
 #ifndef __FFTW__
       double complex x1(ntdivnp), x2(ntdivnp)
